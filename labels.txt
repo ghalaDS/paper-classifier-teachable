@@ -1,0 +1,4 @@
+0 Dotted Paper
+1 Grid Paper
+2 Lined Paper
+3 plain paper
