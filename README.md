@@ -28,29 +28,29 @@ This project classifies different types of paper using a Teachable Machine image
 3. Install the required packages by running:
    ```python
    !pip install tensorflow==2.12.1 pillow
-4.Run the notebook cells in order to:
--Load the model
+4. Run the notebook cells in order to:
+  - Load the model
 
--Load and preprocess the image
+  - Load and preprocess the image
 
--Make a prediction
+  - Make a prediction
 
--Display the result
+  - Display the result
 
 
 ## Supported Classes
--Lined Paper
+- Lined Paper
 
--Grid Paper
+- Grid Paper
 
--Dotted Paper
+- Dotted Paper
 
--Plain Paper
+- Plain Paper
 
 
 ## Built With
--Teachable Machine by Google
+- Teachable Machine by Google
 
--TensorFlow / Keras
+- TensorFlow / Keras
 
--Google Colab
+- Google Colab
