@@ -5,10 +5,7 @@ This project classifies different types of paper using a Teachable Machine image
 
 ## Example Output
 
-<img src="./Screenshot%202025-07-12%20150128.png" width="400"/>
-
-**Class**: Dotted Paper  
-**Confidence Score**: 0.99
+<img src="./Screenshot%202025-07-12%20150128.png" width="300"/>
 
 ---
 
