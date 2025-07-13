@@ -3,28 +3,57 @@ This project classifies different types of paper using a Teachable Machine image
 
 ---
 
-![Sample Output](./Screenshot%202025-07-12%20150128.png)
+## Example Output
+
+<img src="./Screenshot%202025-07-12%20150128.png" width="400"/>
+
+**Class**: Dotted Paper  
+**Confidence Score**: 0.99
 
 ---
 
 ## Files
 
 - `keras_model.h5` — Pre-trained model from Teachable Machine  
-- `labels.txt` — Contains the paper type labels  
-- `my_image.jpg` — The paper image to be classified  
-- `classifier.ipynb` — Python notebook for running predictions  
+- `labels.txt` — Class labels used by the model  
+- `my_image.jpg` — Sample image used for testing  
+- `classifier.ipynb` — Jupyter Notebook to run the model in Google Colab  
 
 ---
 
 ## How to Use (in Google Colab)
 
-1. Upload the following files into Colab:
+1. Open the `classifier.ipynb` notebook in Google Colab.
+2. Upload the following files into the Colab session:
    - `keras_model.h5`
    - `labels.txt`
-   - `your_image.jpg`
+   - `your_image.jpg` (or any image you want to classify)
+3. Install the required packages by running:
+   ```python
+   !pip install tensorflow==2.12.1 pillow
+4.Run the notebook cells in order to:
+-Load the model
 
-2. Install TensorFlow (if needed):
+-Load and preprocess the image
 
-```python
-!pip install tensorflow==2.12.1
-Paste and run the notebook code.
+-Make a prediction
+
+-Display the result
+
+
+## Supported Classes
+-Lined Paper
+
+-Grid Paper
+
+-Dotted Paper
+
+-Plain Paper
+
+
+## Built With
+-Teachable Machine by Google
+
+-TensorFlow / Keras
+
+-Google Colab
